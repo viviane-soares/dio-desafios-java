@@ -1,0 +1,42 @@
+Estes são comandos comuns do Git usados ​​em várias situações:
+
+iniciar uma área de trabalho (veja também: git help tutorial)
+
+ git  clone -  Clone um repositório em um novo diretório
+  git init Cria um repositório Git vazio ou reinicializa um existente
+
+trabalhe na mudança atual (veja também: git help todos os dias)
+
+git   add - Adiciona o conteúdo do arquivo ao índice
+ git mv - Move ou renomeia um arquivo, um diretório ou um link simbólico
+  git  restoure -  Restaurar arquivos da árvore de trabalho
+  git  rm Remove arquivos da árvore de trabalho e do índice
+  git  sparse-checkout -  Inicializa e modifica o sparse-checkout
+
+examine o histórico e o estado (veja também: revisões do git help)
+
+   bisect Use a busca binária para encontrar o commit que introduziu um bug
+   diff Mostra as mudanças entre commits, commit e árvore de trabalho, etc
+   grep Imprime linhas que correspondem a um padrão
+   log Mostrar logs de commit
+   show Mostra vários tipos de objetos
+   status Mostra o status da árvore de trabalho
+
+crescer, marcar e ajustar sua história comum
+   branch Listar, criar ou excluir branches
+   commit Grava as alterações no repositório
+   merge Junte dois ou mais históricos de desenvolvimento
+   rebase Reaplicar commits em cima de outra dica base
+   reset Restaura o HEAD atual para o estado especificado
+   mudar Mudar ramos
+   tag Criar, listar, excluir ou verificar um objeto de tag assinado com GPG
+
+colaborar (veja também: git help workflows)
+   buscar Baixar objetos e referências de outro repositório
+   puxar Busca de e integrar com outro repositório ou uma ramificação local
+   push Atualizar referências remotas junto com objetos associados
+
+'git help -a' e 'git help -g' listam os subcomandos disponíveis e alguns
+guias de conceito. Veja 'git help <comando>' ou 'git help <conceito>'
+para ler sobre um subcomando ou conceito específico.
+Veja 'git help git' para uma visão geral do sistema.
