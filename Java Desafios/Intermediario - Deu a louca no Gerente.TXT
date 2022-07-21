@@ -19,7 +19,7 @@ Exemplos de Entrada	Exemplos de Saída
 
 ## CÓDIGO ##
 
-import java.util.*;
+import java.util.Scanner;
 public class DIO {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
